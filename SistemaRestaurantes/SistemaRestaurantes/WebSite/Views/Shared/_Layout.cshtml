@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link rel="stylesheet" href="~/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/bootstrap-table.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <div class="container layout">
+        <div class="row">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="@Url.Action("Index", "Home")">SISTEMA RESTAURANTES</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li><a href="@Url.Action("Index", "Home")"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                        <li><a href="@Url.Action("Index", "Restaurante")"><span class="glyphicon glyphicon-globe"></span> Restaurantes</a></li>
+                        <li><a href="@Url.Action("Index", "Prato")"><span class="glyphicon glyphicon-cutlery"></span> Pratos</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="row">
+            @RenderBody()
+        </div>
+
+        <script src="~/js/jquery.min.js"></script>
+        <script src="~/js/bootstrap.min.js"></script>
+        <script src="~/js/bootstrap-table.js"></script>
+        <script src="~/js/bootbox.min.js"></script>
+        @RenderSection("scripts", required: false)
+
+    </div>
+</body>
+</html>

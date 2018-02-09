@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "Formulario";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="panel panel-default">
+    <div class="panel-heading"></div>
+    <div class="panel-body">
+        <form onsubmit="Salvar()">
+            <input type="hidden" name="id_res" id="id_res" value="0">
+            <div class="form-group">
+                <label for="nome">Nome</label>
+                <input type="text" class="form-control" id="nome" name="nome" required placeholder="Nome do Restaurante">
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+</div>
+<p class="text-center">
+    <a href="@Url.Action("Index", "Restaurante")" class="btn btn-danger">
+        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        Cancelar
+    </a>
+</p>
+
+@section scripts {
+    <script src="~/js/formrestaurante.js"></script>
+}
+

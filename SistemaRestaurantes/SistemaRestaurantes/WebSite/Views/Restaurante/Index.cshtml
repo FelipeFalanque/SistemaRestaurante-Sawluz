@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="panel panel-default">
+    <div class="panel-heading"><p class="text-center text-muted"><b>RESTAURANTES</b></p></div>
+    <div class="panel-body">
+        <button class="btn btn-success" id="btn_toobar" onclick="AddRestaurante()"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Novo</button>
+        <table id="tableRestaurantes" class="table table-bordered"
+               data-toggle="table"
+               data-pagination="true"
+               data-unique-id="ID"
+               data-search="true"
+               data-search-align="left"
+               data-toolbar-align="right"
+               data-toolbar="#btn_toobar">
+            <thead>
+                <tr>
+                    <th data-field="ID" data-sortable="true">ID</th>
+                    <th data-field="Nome" data-sortable="true">Nome</th>
+                    <th data-field="ID" data-formatter="Acoes">Ações</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+</div>
+
+
+@section scripts {
+    <script src="~/js/restaurante.js"></script>
+}
