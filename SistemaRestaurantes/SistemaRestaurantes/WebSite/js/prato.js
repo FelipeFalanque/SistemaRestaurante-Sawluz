@@ -70,3 +70,5 @@ function EviarPratoParaRemover(idPrato) {
         }
     });
 }
+
+//Sucesso
