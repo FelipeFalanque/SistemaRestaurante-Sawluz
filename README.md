@@ -13,6 +13,6 @@ RepositorioDados/app.config
 Configuração Atual => C:\SistemaRestaurantes\SistemaRestaurantes\BD_Sistema_Restaurante.mdf
 
 
-![alt text](https://github.com/FelipeFalanque/SistemaRestaurante-Sawluz/blob/main/WebConfig.png?raw=true)
+![alt text](https://github.com/FelipeFalanque/SistemaRestaurante-Sawluz/blob/master/SistemaRestaurantes/WebConfig.png?raw=true)
 
-![alt text](https://github.com/FelipeFalanque/SistemaRestaurante-Sawluz/blob/main/Captura_de_tela.png?raw=true)
+![alt text](https://github.com/FelipeFalanque/SistemaRestaurante-Sawluz/blob/master/SistemaRestaurantes/Captura_de_tela.png?raw=true)
