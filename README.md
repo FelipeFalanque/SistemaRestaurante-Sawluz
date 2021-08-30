@@ -7,7 +7,9 @@ O banco de dados é do tipo arquivo, não precisa rodar qualquer script para cri
 Voce deve abrir esses 3 arquivos e mudar o caminho do arquivo de banco de dados, para o local onde esta o projeto na sua maquina local
 
 WebSite/Web.config
+
 TesteRepositorio/app.config
+
 RepositorioDados/app.config
 
 Configuração Atual => C:\SistemaRestaurantes\SistemaRestaurantes\BD_Sistema_Restaurante.mdf
