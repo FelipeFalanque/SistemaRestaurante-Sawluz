@@ -1,5 +1,7 @@
 # SistemaRestaurante
 
+# Usando O Microsoft .NET Framework 4.6.1
+
 É preciso mudar o caminho do banco de dados para o projeto funcionar corretamente.
 
 O banco de dados é do tipo arquivo, não precisa rodar qualquer script para criar uma base na sua maquina local.
